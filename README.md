@@ -1,3 +1,7 @@
+![Render2](https://user-images.githubusercontent.com/55677510/127622146-b72537cd-aa5b-4522-a31f-9564e1bfc27a.JPG)
+![Render](https://user-images.githubusercontent.com/55677510/127622160-d5f3c5ef-3150-4174-8595-a974e479f123.JPG)
+![Render2](https://user-images.githubusercontent.com/55677510/127622163-5f6f5301-c23b-4a39-8878-9210b7d8c734.JPG)
+![Render3](https://user-images.githubusercontent.com/55677510/127622164-c98ef963-63f7-4b12-9a58-14ed6a23e644.JPG)
 # Side Swipe Magnetic Probe
 Currently Supported Printers: Voron v0.1/v0
 
