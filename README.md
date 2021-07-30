@@ -1,10 +1,8 @@
 # Side Swipe Magnetic Probe - The Sub $10 Bolt On Magnetic Voron v0 Probe Solution!
+
+[![SideSwipe](https://user-images.githubusercontent.com/55677510/127627417-156c1312-cd68-4920-b886-059f56386fa7.png)](https://www.youtube.com/watch?v=CZShtrWETEU "SideSwipe")
+
 Currently Supported Printers: Voron v0.1/v0 using MiniAfterburner direct drive hotend
- <iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=CZShtrWETEU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 # BOM
 I tried to design this project around Voron v0 parts so hopefully many of these are spare parts you have lying around.
 - 4 - M3x8 BHCS or SHCS Bolts
