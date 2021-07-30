@@ -1,4 +1,4 @@
-# Side Swipe Magnetic Probe - The $10 Bolt On Magnetic Voron v0 Probe Solution!
+# Side Swipe Magnetic Probe - The $10 Bolt On Magnetic Voron v0.1/v0 Probe Solution!
 
 [![SideSwipe](https://user-images.githubusercontent.com/55677510/127627417-156c1312-cd68-4920-b886-059f56386fa7.png)](https://www.youtube.com/watch?v=CZShtrWETEU "SideSwipe")
 
