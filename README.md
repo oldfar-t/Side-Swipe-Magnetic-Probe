@@ -12,7 +12,7 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 - 1 - [MG90s Hobby Metal Gear Servo Motor](https://www.amazon.com/Maxmoral-Upgraded-Digital-Vehicle-Helicopter/dp/B07NV476P7/ref=pd_lpo_1?pd_rd_i=B07NV476P7&psc=1)
 - 1 - [300mm Servo Extension Cable](https://www.amazon.com/gp/product/B01LA9YDEI/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - 2 - M3x40 BHCS for Voron MiniAfterburner Mounting
-- 1 - 450mm Two conductor wire, I used 24 gauge silicon wire that comes as a strip of 4 strands
+- 1 - [450mm Two conductor wire, I used 24 gauge silicon wire that comes as a strip of 4 strands](https://www.amazon.com/BNTECHGO-Silicone-Ribbon-Flexible-Parallel/dp/B07PMS5KGX/ref=sr_1_5?dchild=1&keywords=24+gauge+silicone+wire+4p&qid=1627635371&sr=8-5)
 
 # Assembly
 1. Print all parts using abs, parts are designed with shrinkage in mind. You may need to print all parts except Arm with minor supports. I have mine printed at a 0.3mm layer height at 13% infill, but a smaller layer height would look much better.
