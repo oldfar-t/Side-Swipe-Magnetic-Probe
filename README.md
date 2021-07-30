@@ -1,7 +1,3 @@
-![Render2](https://user-images.githubusercontent.com/55677510/127622146-b72537cd-aa5b-4522-a31f-9564e1bfc27a.JPG)
-![Render](https://user-images.githubusercontent.com/55677510/127622160-d5f3c5ef-3150-4174-8595-a974e479f123.JPG)
-![Render2](https://user-images.githubusercontent.com/55677510/127622163-5f6f5301-c23b-4a39-8878-9210b7d8c734.JPG)
-![Render3](https://user-images.githubusercontent.com/55677510/127622164-c98ef963-63f7-4b12-9a58-14ed6a23e644.JPG)
 # Side Swipe Magnetic Probe
 Currently Supported Printers: Voron v0.1/v0
 
@@ -43,3 +39,6 @@ Currently Supported Printers: Voron v0.1/v0
 25. Before reattaching the printer side panel, move the print head so that the Probe Mount can reach the Probe Block when the Arm is in the 90 degree position. Loosen and slide the Side Swipe mechanism until the Probe Block makes contact with the Probe Mount. Keep sliding the Side Swipe until the Arm is level and then tighten the two mounting bolts.
 26. You should then wire the servo motor and Probe switch connection according to the wiring diagram.
 27. Done! You should be able to run the PROBE_IN and PROBE_OUT macros. You may need to make some adjustments to the macro's positioning depending on your printers exact configuration. This is most easily done by moving the printhead manually and then issuing an M114 command to determine the printhead's position.
+![Render](https://user-images.githubusercontent.com/55677510/127622160-d5f3c5ef-3150-4174-8595-a974e479f123.JPG)
+![Render2](https://user-images.githubusercontent.com/55677510/127622163-5f6f5301-c23b-4a39-8878-9210b7d8c734.JPG)
+![Render3](https://user-images.githubusercontent.com/55677510/127622164-c98ef963-63f7-4b12-9a58-14ed6a23e644.JPG)
