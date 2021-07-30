@@ -1,4 +1,4 @@
-# Side Swipe Magnetic Probe - The Sub $10 Magnetic Voron v0 Probe Solution!
+# Side Swipe Magnetic Probe - The Sub $10 Bolt On Magnetic Voron v0 Probe Solution!
 Currently Supported Printers: Voron v0.1/v0
 
 # BOM
