@@ -13,7 +13,7 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 - 1 - 450mm Two conductor wire, I used 24 gauge silicon wire that comes as a strip of 4 strands
 
 # Assembly
-1. Print all parts using abs, parts are designed with shrinkage in mind.
+1. Print all parts using abs, parts are designed with shrinkage in mind. You may need to print all parts except Arm with supports. I have mine printed at a 0.3mm layer height at 13% infill, but a smaller layer height would look much better.
 2. Insert servo connector through hole located in middle of Servo Mount Part then pull wire through.
 3. Slot servo side tab into Servo mount with the output shaft closer to the Servo Mount part (See Image Below).
 4. Insert M3x8 bolt into hole located on the end of the Servo Mount Part.
