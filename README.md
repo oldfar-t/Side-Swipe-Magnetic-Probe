@@ -16,7 +16,7 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 - 1 - [450mm Two conductor wire, I used 24 gauge silicon wire that comes as a strip of 4 strands](https://www.amazon.com/BNTECHGO-Silicone-Ribbon-Flexible-Parallel/dp/B07PMS5KGX/ref=sr_1_5?dchild=1&keywords=24+gauge+silicone+wire+4p&qid=1627635371&sr=8-5)
 
 # Assembly
-1. Print all parts using abs, parts are designed with shrinkage in mind. You may need to print all parts except Arm with minor supports. I have mine printed at a 0.3mm layer height at 13% infill, but a smaller layer height would look much better.
+1. Print all parts using abs, parts are designed with shrinkage in mind. You may need to print the Probe_Mount and Probe_Block with minor supports. I have mine printed at a 0.3mm layer height at 13% infill, but a smaller layer height would work as well.
 2. Insert servo connector through hole located in middle of Servo Mount Part then pull wire through.
 3. Slot servo side tab into Servo mount with the output shaft closer to the Servo Mount part (See Image Below).
 4. Insert M3x8 bolt into hole located on the end of the Servo Mount Part.
