@@ -1,17 +1,18 @@
-# Side Swipe Magnetic Probe - The $10 Bolt On Magnetic Voron v0.1/v0 Probe Solution!
+# Side Swipe v1.5 Magnetic Probe - The $10 Bolt On Magnetic Voron v0.1/v0 Probe Solution!
 
-[![SideSwipe](https://user-images.githubusercontent.com/55677510/127627417-156c1312-cd68-4920-b886-059f56386fa7.png)](https://www.youtube.com/watch?v=CZShtrWETEU "SideSwipe")
+[![SideSwipe](https://user-images.githubusercontent.com/55677510/130884085-bd4bb34c-789b-4d5f-ac15-f4a48ff2e831.png)](https://youtu.be/MGC7AC8e7SE "SideSwipe")
 
 Currently Supported Printers: Voron v0.1/v0 using MiniAfterburner direct drive hotend
 # BOM
 I tried to design this project around Voron v0 parts so hopefully many of these are spare parts you have lying around.
-- 4 - M3x8 BHCS or SHCS Bolts
+- 2 - M3x8 BHCS or SHCS Bolts
+- 2 - M3x10 BHCS or SHCS Bolts
+- 2 - M3x40 BHCS for Voron MiniAfterburner Mounting
 - 2 - M3 Nuts
 - 5 - [6mmx3mm Neodymium Magnets](https://www.amazon.com/gp/product/B077K364Z7/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1)
 - 1 - [Omron Mouse Microswitch](https://www.amazon.com/dp/B00HPL57JQ/?coliid=I2L344Q2DNJEAU&colid=WW0P09PQO065&psc=1&ref_=lv_ov_lig_dp_it)
 - 1 - [MG90s Hobby Metal Gear Servo Motor](https://www.amazon.com/Maxmoral-Upgraded-Digital-Vehicle-Helicopter/dp/B07NV476P7/ref=pd_lpo_1?pd_rd_i=B07NV476P7&psc=1)
 - 1 - [300mm Servo Extension Cable](https://www.amazon.com/gp/product/B01LA9YDEI/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-- 2 - M3x40 BHCS for Voron MiniAfterburner Mounting
 - 1 - [450mm Two conductor wire, I used 24 gauge silicon wire that comes as a strip of 4 strands](https://www.amazon.com/BNTECHGO-Silicone-Ribbon-Flexible-Parallel/dp/B07PMS5KGX/ref=sr_1_5?dchild=1&keywords=24+gauge+silicone+wire+4p&qid=1627635371&sr=8-5)
 
 # Assembly
@@ -34,14 +35,13 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 17. Press two 6x3 magnets into the holes on the bottom of the Probe Mount ensuring that they are both the same direction, and that they are oriented such that the Probe Block attaches to the Probe Mount. These magnets should not be pressed until they are flush. The magnets should both be proud of the surface by about 0.5mm.
 18. Attach the Probe Block to the Probe Mount and test continuity at the JST connector end of the wire. The switch should behave normally closed.
 19. Remove the two lower mounting bolts on the face of the MiniAfterburner and using two M3x40 bolts attach the Probe Mount using the now open mounting holes.
-20. Finally you will need to insert two M3 nuts into the right vertical 15x15 extrusion to mount the Side Swipe. This can be done by detensioning the belts, loosening the bolt passing through the front right idler, loosening the three M3 bolts attaching the vertical extrusion to the top and two bottom horizontal extrusions. You can then slide the extrusion down and insert the two M3 nuts into the top of the slot facing the rear of the printer. (Refer to images below)
-21. Slide the extrusion back into place and retighten the M3 bolts ensuring that the extrusions are perpendicular to each other, then screw the top idler bolt back into place. 
 22. Before attaching the Side Swipe mechanism to the rail, plug the servo into the mainboard following the wiring diagram and run the SERVO_IN macro. You should then adjust the Arm so that it is in line with the body of the servo. Press the arm into place and attach using screw provided with the servo. Running the SERVO_OUT macro should rotate the servo counterclockwise by 90 degrees.
-23. You can then attach the Side Swipe mechanism to the extrusion using the two inserted nuts, making sure that the servo wire runs up in the extrusion slot towards the top of the machine (It helps to place the machine on its face and remove the right side panel).
-24. The servo wire can be tucked into the bottomside slot of the top horizontal extrusion. You might need to remove the servo wire connector so that you can slide the wires past the rear cover plate into the electronics bay. Reattach the connector and attach the 300mm servo extension or cut and solder the wires so that they can reach the mainboard of the printer.
-25. Before reattaching the printer side panel, move the print head so that the Probe Mount can reach the Probe Block when the Arm is in the 90 degree position. Loosen and slide the Side Swipe mechanism until the Probe Block makes contact with the Probe Mount. Keep sliding the Side Swipe until the Arm is level and then tighten the two mounting bolts.
-26. You should then wire the servo motor and Probe switch connection according to the wiring diagram.
-27. Done! You should be able to run the PROBE_IN and PROBE_OUT macros. You may need to make some adjustments to the macro's positioning depending on your printers exact configuration. This is most easily done by moving the printhead manually and then issuing an M114 command to determine the printhead's position.
-![Render](https://user-images.githubusercontent.com/55677510/127622160-d5f3c5ef-3150-4174-8595-a974e479f123.JPG)
-![Render2](https://user-images.githubusercontent.com/55677510/127622163-5f6f5301-c23b-4a39-8878-9210b7d8c734.JPG)
+23. You can then attach the Side Swipe mechanism to the extrusion by first backing the 2 M3x10 screws all the way out and then slide the backet into the extrusion, making sure that the servo wire runs up in the extrusion slot towards the top of the machine and underneath the top horizontal extrusion (It helps to place the machine on its face and remove the right side panel).
+24. Before tightening the bracket into place adjust the height of the bracket first so that when the arm is in the extended position, the probe can be picked up properly.
+25. The servo wire can be tucked into the bottomside slot of the top horizontal extrusion. You might need to remove the servo wire connector so that you can slide the wires past the rear cover plate into the electronics bay. Reattach the connector and attach the 300mm servo extension or cut and solder the wires so that they can reach the mainboard of the printer.
+26. Before reattaching the printer side panel, move the print head so that the Probe Mount can reach the Probe Block when the Arm is in the 90 degree position. Loosen and slide the Side Swipe mechanism until the Probe Block makes contact with the Probe Mount. Keep sliding the Side Swipe until the Arm is level and then tighten the two mounting bolts.
+27. You should then wire the servo motor and Probe switch connection according to the wiring diagram.
+28. Done! You should be able to run the PROBE_IN and PROBE_OUT macros. You may need to make some adjustments to the macro's positioning depending on your printers exact configuration. This is most easily done by moving the printhead manually and then issuing an M114 command to determine the printhead's position.
+![v1 5 Release Render](https://user-images.githubusercontent.com/55677510/130884571-114f16df-11a0-46d8-85a1-845c8b1e6156.png)
+![v1 5 thumbnail](https://user-images.githubusercontent.com/55677510/130884609-7332b90d-12a0-497f-891a-ef2e71e9d0ba.JPG)
 ![Render3](https://user-images.githubusercontent.com/55677510/127622164-c98ef963-63f7-4b12-9a58-14ed6a23e644.JPG)
