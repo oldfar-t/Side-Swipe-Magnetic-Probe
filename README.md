@@ -37,7 +37,7 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 
 View of Probe Switch             |  View of Coupling Magnets
 :-------------------------:|:-------------------------:
-<img class =“right” src="https://user-images.githubusercontent.com/55677510/131186988-e9f6b33b-a8da-4081-a9ec-cd9aa90b7fa1.jpg" width="400"/>  |  <img class="left" src="https://user-images.githubusercontent.com/55677510/131186997-56128ffe-89b0-4b93-84bd-1c1963ef6ccf.jpg" width="400"/>
+<img class =“right” src="https://user-images.githubusercontent.com/55677510/131186988-e9f6b33b-a8da-4081-a9ec-cd9aa90b7fa1.jpg" width="600"/>  |  <img class="left" src="https://user-images.githubusercontent.com/55677510/131186997-56128ffe-89b0-4b93-84bd-1c1963ef6ccf.jpg" width="600"/>
 
 19. Remove the two lower mounting bolts on the face of the MiniAfterburner and using two M3x40 bolts attach the Probe Mount using the now open mounting holes.
 22. Before attaching the Side Swipe mechanism to the rail, plug the servo into the mainboard following the wiring diagram and run the SERVO_IN macro. You should then adjust the Arm so that it is in line with the body of the servo. Press the arm into place and attach using screw provided with the servo. Running the SERVO_OUT macro should rotate the servo counterclockwise by 90 degrees.
@@ -47,6 +47,10 @@ View of Probe Switch             |  View of Coupling Magnets
 26. Before reattaching the printer side panel, move the print head so that the Probe Mount can reach the Probe Block when the Arm is in the 90 degree position. Loosen and slide the Side Swipe mechanism until the Probe Block makes contact with the Probe Mount. Keep sliding the Side Swipe until the Arm is level and then tighten the two mounting bolts.
 27. You should then wire the servo motor and Probe switch connection according to the wiring diagram.
 28. Done! You should be able to run the PROBE_IN and PROBE_OUT macros. You may need to make some adjustments to the macro's positioning depending on your printers exact configuration. This is most easily done by moving the printhead manually and then issuing an M114 command to determine the printhead's position.
+
+Servo Assembly             |  Probe Assembly
+:-------------------------:|:-------------------------:
+<img class =“right” src="https://user-images.githubusercontent.com/55677510/131759982-4548746a-723c-425a-9b45-88b40ad672f0.gif" width="600"/>  |  <img class="left" src="https://user-images.githubusercontent.com/55677510/131760023-526504f6-57fb-4a2b-ab5c-e887f9c67121.gif" width="600"/>
 
 
 ![v1 5 Release Render](https://user-images.githubusercontent.com/55677510/130884571-114f16df-11a0-46d8-85a1-845c8b1e6156.png)
