@@ -16,7 +16,7 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 - 1 - [450mm Two conductor wire, I used 24 gauge silicon wire that comes as a strip of 4 strands](https://www.amazon.com/BNTECHGO-Silicone-Ribbon-Flexible-Parallel/dp/B07PMS5KGX/ref=sr_1_5?dchild=1&keywords=24+gauge+silicone+wire+4p&qid=1627635371&sr=8-5)
 
 # Assembly
-1. Print all parts using abs, parts are designed with shrinkage in mind. You may need to print the Probe_Mount and Probe_Block with minor supports. I have mine printed at a 0.3mm layer height at 13% infill, but a smaller layer height would work as well.
+1. Print all parts using abs, parts are designed with shrinkage in mind. Supports should not be needed and refer to Print_Settings.txt for recommended settings.
 2. Insert servo connector through hole located in middle of Servo Mount Part then pull wire through.
 3. Slot servo side tab into Servo mount with the output shaft closer to the Servo Mount part (See Image Below).
 4. Insert M3x8 bolt into hole located on the end of the Servo Mount Part.
@@ -26,14 +26,18 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 8. Next trim the middle connection on the microswitch flush with the switch body, leaving the two end connections. You will then insert the switch into the Probe Block Part, pressing the switch in so that the connections push through the holes. This is best to be done with a small vise.
 9. Bend the switch connections over using a flathead screwdriver.
 10. Now insert three 6x3 magnets into the holes of the Probe Block Part, the magnet on the side of the Probe block can be pressed in flush, and the two magnets on top should be pressed so that they are just below the surface of the Block. This can be done by attaching an extra magnet to each to push the magnets further in. Make sure that these two top magnets are facing the same direction.
-11. Test the Probe Block with a multimeter on continuity mode by placing the multimeter probes on the top side magnets. The switch is normally closed you you should hear a beep and the beep should stop when pressing the switch.
+11. Test the Probe Block with a multimeter on continuity mode by placing the multimeter probes on the top side magnets. The switch is normally closed you you should hear a beep and the beep should stop when pressing the switch. If the continuity test fails refer to troubleshooting below.
 12. Take your 450mm section of 2 conductor wire and crimp a 3 connection jst connector(refer to wiring diagram).
 13. On the other end trim one of the conductors about 8mm shorter than the other and then strip 20mm of insulation from both conductors.
 14. Insert the stripped conductors into the holes on the back of the Probe Mount Part, pull all stripped wire through(twisting the wire first helps).
-15. Tuck the wire into the cable channel along the back of the Probe Mount.
+15. Tuck the wire into the cable channel along the back of the Probe Mount as seen in the image below.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/55677510/132261817-6355ee7f-feb8-43a3-94b2-3208d925c195.JPG" width="400"/>
+</p>
 16. Coil the stripped wire and tuck into the magnet holes so that they lay roughly flat against the bottom of the hole.
 17. Press two 6x3 magnets into the holes on the bottom of the Probe Mount ensuring that they are both the same direction, and that they are oriented such that the Probe Block attaches to the Probe Mount. These magnets should not be pressed until they are flush. The magnets should both be proud of the surface by about 0.5mm.
-18. Attach the Probe Block to the Probe Mount and test continuity at the JST connector end of the wire. The switch should behave normally closed.
+18. Attach the Probe Block to the Probe Mount and test continuity at the JST connector end of the wire. The switch should behave normally closed. If the continuity test fails refer to troubleshooting below.
+
 
 View of Probe Switch             |  View of Coupling Magnets
 :-------------------------:|:-------------------------:
@@ -48,11 +52,25 @@ View of Probe Switch             |  View of Coupling Magnets
 27. You should then wire the servo motor and Probe switch connection according to the wiring diagram.
 28. Done! You should be able to run the PROBE_IN and PROBE_OUT macros. You may need to make some adjustments to the macro's positioning depending on your printers exact configuration. This is most easily done by moving the printhead manually and then issuing an M114 command to determine the printhead's position.
 
+
 Servo Assembly             |  Probe Assembly
 :-------------------------:|:-------------------------:
 <img class =“right” src="https://user-images.githubusercontent.com/55677510/131759982-4548746a-723c-425a-9b45-88b40ad672f0.gif" width="600"/>  |  <img class="left" src="https://user-images.githubusercontent.com/55677510/131760023-526504f6-57fb-4a2b-ab5c-e887f9c67121.gif" width="600"/>
 
+# Troubleshooting
+-If continuity test fails for the Probe_Block the top two magnets can be removed by using the included 1.7mm holes. Using a small philips screw driver or drill bit you can remove the thin walls marked with the small 0.5mm hole printed in place on the v2.5 version of the Probe_Block model. Next use a small flat head screwdriver to push the rest of the way, levering the magnet out gently. Please refer to the images below.
 
+Breaking Thin Wall             |  Inserting Flat Head Driver
+:-------------------------:|:-------------------------:
+<img class =“right” src="https://user-images.githubusercontent.com/55677510/132262105-d3507840-3c66-4488-b5ef-24f692fbeced.JPG" width="600"/>  |  <img class="left" src="https://user-images.githubusercontent.com/55677510/132262121-2df91fec-66ff-48db-b375-24b466aaf429.JPG" width="600"/>
+
+-If continuity test fails for the Probe_Mount the two magnets can be removed by using the included 1.7mm holes. Using a small philips screw driver or drill bit you can remove the thin walls marked with the small 0.5mm hole printed in place on the v7.2 version of the Probe_Mount model. Next use a small flat head screwdriver to push the rest of the way, pushing the magnet out gently. Please refer to the images below.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/55677510/132262399-1e815e1f-1c46-4e48-99d7-c156db3e5ea9.JPG" width="400"/>
+</p>
+
+# Completed Assembly
 ![v1 5 Release Render](https://user-images.githubusercontent.com/55677510/130884571-114f16df-11a0-46d8-85a1-845c8b1e6156.png)
 ![v1 5 thumbnail](https://user-images.githubusercontent.com/55677510/130884609-7332b90d-12a0-497f-891a-ef2e71e9d0ba.JPG)
 ![Render3](https://user-images.githubusercontent.com/55677510/127622164-c98ef963-63f7-4b12-9a58-14ed6a23e644.JPG)

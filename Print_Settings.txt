@@ -1,0 +1,8 @@
+Side Swipe Slicer Settings
+Recommended Filament Type - ABS, ABS+ - PLA may be possible but parts are designed for ABS shrinkage
+
+0.4mm Nozzle
+-Infill - Gyroid 40%
+-Walls - 3
+-Layer Height - 0.2 recommended, 0.3 possible at reduced quality
+-Top/Bottom Layers - 3
