@@ -16,7 +16,7 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 - 1 - [450mm Two conductor wire, I used 24 gauge silicon wire that comes as a strip of 4 strands](https://www.amazon.com/BNTECHGO-Silicone-Ribbon-Flexible-Parallel/dp/B07PMS5KGX/ref=sr_1_5?dchild=1&keywords=24+gauge+silicone+wire+4p&qid=1627635371&sr=8-5)
 
 # Assembly
-1. Print all parts using abs, parts are designed with shrinkage in mind. Supports should not be needed and refer to Print_Settings.txt for recommended settings.
+1. Print all parts using abs, parts are designed with shrinkage in mind. Supports should not be needed and refer to Print_Settings.txt for recommended settings. Decide whether to print the Servo_Mount or Servo_Mount_M3_Nuts_In_Frame. Servo_Mount does not require and M3 nuts to be added to the frame. Servo_Mount_M3_Nuts_In_Frame does require M3 nuts but will require 2 M3 nuts to be added to the front right vertical 15x15 extrusion. I have included some directions in the Troubleshooting section below with some guidance on adding these 2 M3 nuts if you would like to do so.
 2. Insert servo connector through hole located in middle of Servo Mount Part then pull wire through.
 3. Slot servo side tab into Servo mount with the output shaft closer to the Servo Mount part (See Image Below).
 4. Insert M3x8 bolt into hole located on the end of the Servo Mount Part.
@@ -69,6 +69,8 @@ Breaking Thin Wall             |  Inserting Flat Head Driver
 <p align="center">
 <img src="https://user-images.githubusercontent.com/55677510/132262399-1e815e1f-1c46-4e48-99d7-c156db3e5ea9.JPG" width="400"/>
 </p>
+
+-If using Servo_Mount_M3_Nuts_In_Frame and you have not already added 2 M3 nuts to the front right vertical 15x15 extrusion you will need to do so. This can be done by detensioning the belts, loosening the bolt passing through the front right idler, loosening the three M3 bolts attaching the vertical extrusion to the top and two bottom horizontal extrusions. You can then slide the extrusion down and insert the two M3 nuts into the top of the slot facing the rear of the printer. Slide the extrusion back into place and retighten the M3 bolts ensuring that the extrusions are perpendicular to each other, then screw the top idler bolt back into place.
 
 # Completed Assembly
 ![v1 5 Release Render](https://user-images.githubusercontent.com/55677510/130884571-114f16df-11a0-46d8-85a1-845c8b1e6156.png)
