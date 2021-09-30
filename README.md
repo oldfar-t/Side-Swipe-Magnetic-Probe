@@ -5,8 +5,8 @@
 Currently Supported Printers: Voron v0.1/v0 using MiniAfterburner direct drive hotend
 # BOM
 I tried to design this project around Voron v0 parts so hopefully many of these are spare parts you have lying around.
-- 2 - M3x8 BHCS or SHCS Bolts
-- 2 - M3x10 BHCS or SHCS Bolts
+- 2 - M3x8 BHCS or SHCS Bolts (+2 if using Servo_Mount_M3_Nuts_In_Frame)
+- 2 - M3x10 BHCS or SHCS Bolts (-2 if using Servo_Mount_M3_Nuts_In_Frame)
 - 2 - M3x40 BHCS for Voron MiniAfterburner Mounting
 - 2 - M3 Nuts
 - 5 - [6mmx3mm Neodymium Magnets](https://www.amazon.com/gp/product/B077K364Z7/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1)
