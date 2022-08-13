@@ -13,7 +13,7 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 - 1 - [Omron Mouse Microswitch](https://www.amazon.com/dp/B00HPL57JQ/?coliid=I2L344Q2DNJEAU&colid=WW0P09PQO065&psc=1&ref_=lv_ov_lig_dp_it)
 - 1 - [MG90s Hobby Metal Gear Servo Motor](https://www.amazon.com/Maxmoral-Upgraded-Digital-Vehicle-Helicopter/dp/B07NV476P7/ref=pd_lpo_1?pd_rd_i=B07NV476P7&psc=1)
 - 1 - [300mm Servo Extension Cable](https://www.amazon.com/gp/product/B01LA9YDEI/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-- 1 - [450mm Two conductor wire, I used 24 gauge silicon wire that comes as a strip of 4 strands](https://www.amazon.com/BNTECHGO-Silicone-Ribbon-Flexible-Parallel/dp/B07PMS5KGX/ref=sr_1_5?dchild=1&keywords=24+gauge+silicone+wire+4p&qid=1627635371&sr=8-5)
+- 1 - [550mm Two conductor wire, I used 24 gauge silicon wire that comes as a strip of 4 strands](https://www.amazon.com/BNTECHGO-Silicone-Ribbon-Flexible-Parallel/dp/B07PMS5KGX/ref=sr_1_5?dchild=1&keywords=24+gauge+silicone+wire+4p&qid=1627635371&sr=8-5)
 
 # Assembly
 1. Print all parts using abs, parts are designed with shrinkage in mind. Supports should not be needed and refer to Print_Settings.txt for recommended settings. Decide whether to print the Servo_Mount or Servo_Mount_M3_Nuts_In_Frame. Servo_Mount does not require and M3 nuts to be added to the frame. Servo_Mount_M3_Nuts_In_Frame does require M3 nuts but will require 2 M3 nuts to be added to the front right vertical 15x15 extrusion. I have included some directions in the Troubleshooting section below with some guidance on adding these 2 M3 nuts if you would like to do so.
@@ -27,7 +27,7 @@ I tried to design this project around Voron v0 parts so hopefully many of these 
 9. Bend the switch connections over using a flathead screwdriver.
 10. Now insert three 6x3 magnets into the holes of the Probe Block Part, the magnet on the side of the Probe block can be pressed in flush, and the two magnets on top should be pressed so that they are just below the surface of the Block. This can be done by attaching an extra magnet to each to push the magnets further in. Make sure that these two top magnets are facing the same direction.
 11. Test the Probe Block with a multimeter on continuity mode by placing the multimeter probes on the top side magnets. The switch is normally closed you you should hear a beep and the beep should stop when pressing the switch. If the continuity test fails refer to troubleshooting below.
-12. Take your 450mm section of 2 conductor wire and crimp a 3 connection jst connector(refer to wiring diagram).
+12. Take your 550mm section of 2 conductor wire and crimp a 3 connection jst connector(refer to wiring diagram).
 13. On the other end trim one of the conductors about 8mm shorter than the other and then strip 20mm of insulation from both conductors.
 14. Insert the stripped conductors into the holes on the back of the Probe Mount Part, pull all stripped wire through(twisting the wire first helps).
 15. Tuck the wire into the cable channel along the back of the Probe Mount as seen in the image below.
